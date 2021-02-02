@@ -526,7 +526,7 @@ Nota come in `handleClick`, chiamiamo `.slice()` per creare una copia dell'array
 
 Nel precedente esempio di codice, abbiamo suggerito l'uso dell'operatore `.slice()` per creare una copia dell'array `squares` prima di modificarlo al posto della modifica diretta dell'array. Cerchiamo di capire cosa è l'immutabilità e perché si tratta di un concetto importante da imparare.
 
-In generale, ci sono due approcci per modificare i dati. Il primo appoccio è quello di *mutarli* direttamente, cambiandone i valori. Il secondo approccio è quello di sostituire i dati con una nuova copia che ha i cambiamenti desiderati.
+In generale, ci sono due approcci per modificare i dati. Il primo approccio è quello di *mutarli* direttamente, cambiandone i valori. Il secondo approccio è quello di sostituire i dati con una nuova copia che ha i cambiamenti desiderati.
 
 #### Modificare Dati mediante Mutazione {#data-change-with-mutation}
 ```javascript
